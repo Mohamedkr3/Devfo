@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+}
+.bg-mynav{
+    background-color: rgb(0.0, 0.0, 0.0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+   right: 0;
+   z-index: 999;
+   font-size:large;
+   justify-content: space-between;
+  
+}  
+a {
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  a:hover {
+    color: #0078ff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  
+.home{
+    background-image:url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.homelayer{
+background-color: rgb(0.0, 0.0, 0.0,0.7);
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.layercontent{
+    color: white;
+    text-align: center;
+
+}
+.lh1{
+    font-size: 65px;
+}
+.typeing{
+    font-size: 40px;
+}
+.typeing::after{
+    content:"Deveolper";
+    animation-name: skill ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+ 
+@keyframes skill {
+0% {content: "|";}
+2% {content: "D|";}
+4% {content: "DE|";}
+6% {content: "DEV|";}
+8% {content: "DEVE|";}
+10% {content: "DEVEO|";}
+12% {content: "DEVEOL|";}
+14% {content: "DEVEOLP|";}
+16% {content: "DEVEOLPE|";}
+18% {content: "DEVEOLPER|";}
+30% {content: "DEVEOLPE|";}
+32% {content: "DEVEOLP|";}
+34% {content: "DEVEOL|";}
+36% {content: "DEVEO|";}
+38% {content: "DEVE|";}
+40% {content: "DEV|";}
+42% {content: "DE|";}
+44% {content: "D|";}
+46%{cursor: "|";}
+100%{content: "|";}
+    
+}
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+  
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+  
+  @media (min-width: 767px) {
+    .about-mf .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+  
+  .skill-mf span {
+    color: #4e4e4e;
+  }
+  
+  .skill-mf .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0078ff;
+  }
+  
+  /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+  .service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+  
+  .service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+  
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-box .ico-circle i {
+    line-height: 0;
+    font-size: 40px;
+  }
+  
+  .service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+  }
+  
+  .service-box .s-description {
+    color: #4e4e4e;
+  }
+  .protfolio{
+    padding: 60px 0px;
+  }
+  .card{
+    border: 0px;
+    margin-top: 40px;
+  }
+  .card-body-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .card-img{
+    overflow: hidden;
+  }
+  .card:hover img{
+    transform: scale(1.5,1.5);
+
+  }
+  .card img{
+    transition: transform 1s ease-in-out;
+  }
+  .carouselpart{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: 40px;
+  }
+  .carouslelayer{
+    background-color: rgba(0.0, 0.0, 225,0.6);
+  }
+  .carousel-indicators{
+    top: 100%;
+  }
+  .carousel-indicators [data-bs-target]{
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+  }
+ #contact{
+  background-image: url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ }
+ .bg-blue{
+  background-color: rgba(0.0, 0.0, 225,0.6);
+ }
